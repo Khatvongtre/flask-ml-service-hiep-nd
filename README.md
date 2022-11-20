@@ -32,7 +32,7 @@ or
 
 * Testing result:
 After above step you see dependencies are installed, lint rate 10/10 and tests are passed as below:
-![Architecture Diagram](./images/Result.png )
+![Architecture Diagram](./Images/Result.png )
 #### Project running on Azure App Service
 
 * You can deploy this project direct to azure using command:
