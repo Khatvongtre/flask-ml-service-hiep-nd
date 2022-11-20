@@ -16,9 +16,11 @@ This project demonstrate how to manage and devlop a python project using CI/CD w
 * Open Cloud shell using bash and clone project then go to project folder:
 
 `$ git clone https://github.com/Khatvongtre/flask-ml-service-hiep-nd.git`
+
 or
 
 `$ git clone git@github.com:Khatvongtre/flask-ml-service-hiep-nd.git`
+
 `$ cd flask-ml-service-hiep-nd`
 
 ![Architecture Diagram](./Images/CloneCode.png )
@@ -53,11 +55,11 @@ Note: The app service was created before.
 The output should look similar to this:
 
 ```bash
-$ make_predict_azure_app.sh
+$ ./make_predict_azure_app.sh
 ```
 If show Permission denied please try this:
 ```bash
-$ chmod 774 make_predict_azure_app.sh
+$ chmod 774 ./make_predict_azure_app.sh
 ```
 
 Note: I use the **LinearRegression** model, if you use other models the result can be different.
